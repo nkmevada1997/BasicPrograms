@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddEven", "OddEven\OddEven.csproj", "{86E9B510-68CD-4D16-A184-5D481D825817}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OddEven", "OddEven\OddEven.csproj", "{86E9B510-68CD-4D16-A184-5D481D825817}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeNumber", "PalindromeNumber\PalindromeNumber.csproj", "{065D3AE7-D94A-4069-B9A1-A13000F1B584}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeNumber", "PalindromeNumber\PalindromeNumber.csproj", "{065D3AE7-D94A-4069-B9A1-A13000F1B584}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmStrongNunber", "ArmstrongNunber\ArmStrongNunber.csproj", "{64CF26B2-7B82-480D-B3E2-157AE1D6F583}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArmStrongNunber", "ArmstrongNunber\ArmStrongNunber.csproj", "{64CF26B2-7B82-480D-B3E2-157AE1D6F583}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumber", "PrimeNumber\PrimeNumber.csproj", "{45852A57-953B-4272-B2FA-D5FCBA772B66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeNumber", "PrimeNumber\PrimeNumber.csproj", "{45852A57-953B-4272-B2FA-D5FCBA772B66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeList", "PrimeList\PrimeList.csproj", "{9BABE6A9-6FBF-4C26-A769-F929CD7C9940}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeList", "PrimeList\PrimeList.csproj", "{9BABE6A9-6FBF-4C26-A769-F929CD7C9940}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialNumber", "FactorialNumber\FactorialNumber.csproj", "{0F380AB7-F633-486C-B4B3-B7EC30F32E2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactorialNumber", "FactorialNumber\FactorialNumber.csproj", "{0F380AB7-F633-486C-B4B3-B7EC30F32E2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciSeries", "FibonacciSeries\FibonacciSeries.csproj", "{B283AC06-C505-47B5-99BE-BBC6007E52C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciSeries", "FibonacciSeries\FibonacciSeries.csproj", "{B283AC06-C505-47B5-99BE-BBC6007E52C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Numbers", "Numbers", "{351946D9-5780-4EA9-8B13-6B9ABA225B5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,6 +56,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86E9B510-68CD-4D16-A184-5D481D825817} = {351946D9-5780-4EA9-8B13-6B9ABA225B5B}
+		{065D3AE7-D94A-4069-B9A1-A13000F1B584} = {351946D9-5780-4EA9-8B13-6B9ABA225B5B}
+		{64CF26B2-7B82-480D-B3E2-157AE1D6F583} = {351946D9-5780-4EA9-8B13-6B9ABA225B5B}
+		{45852A57-953B-4272-B2FA-D5FCBA772B66} = {351946D9-5780-4EA9-8B13-6B9ABA225B5B}
+		{9BABE6A9-6FBF-4C26-A769-F929CD7C9940} = {351946D9-5780-4EA9-8B13-6B9ABA225B5B}
+		{0F380AB7-F633-486C-B4B3-B7EC30F32E2A} = {351946D9-5780-4EA9-8B13-6B9ABA225B5B}
+		{B283AC06-C505-47B5-99BE-BBC6007E52C3} = {351946D9-5780-4EA9-8B13-6B9ABA225B5B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8B67EEAD-FBBE-421D-AF39-1D4B4B430301}
